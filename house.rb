@@ -10513,4 +10513,7 @@ puts house[:objects][-1].class # hash
 puts house[:objects]
 
 # Get the URL for the photo of one representative into a variable.
-puts house[:objects][-1][:photo_url] # http://www.ourcommons.ca/Parliamentarians/Images/OfficialMPPhotos/42/CaesarChavannesCelina_Lib.jpg
+
+puts house[:objects][-1][:photo_url]
+photo_url = [:objects][-1][:photo_url]
+puts photo
